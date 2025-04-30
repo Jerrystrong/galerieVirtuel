@@ -1,0 +1,127 @@
+@import url('bootstrap.css');
+@import url('../fonts/feather/style.min.css');
+@import url('../fonts/line-awesome/css/line-awesome.min.css');
+@import url('../fonts/flag-icon-css/css/flag-icon.min.css');
+@import url('../vendors/css/extensions/pace.css');
+
+/* Styles de base pour le formulaire */
+#form-section {
+    max-width: 600px;
+    margin: 0 auto;
+    display: none; /* Initialement masqué */
+    margin-top: 20px; /* Espace en haut si nécessaire */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+ 
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Style des champs de saisie */
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* Style des boutons de navigation */
+.step-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    color: #ffffff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+
+
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.btn-prev {
+    background-color: #6c757d;
+}
+
+.btn-prev:hover {
+    background-color: #495057;
+}
+
+/* Barre de progression */
+.progress-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 5px;
+    background-color: #ddd;
+    position: relative;
+    border-radius: 5px;
+}
+
+.progress-bar .active {
+    background-color: #007bff;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 5px;
+}
+
+/* Masquer les étapes inactives */
+.step {
+    display: none;
+}
+
+.step.active {
+    display: block;
+}
+step-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.btn-next {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-prev {
+    background-color: #6c757d;
+    color: white;
+}
