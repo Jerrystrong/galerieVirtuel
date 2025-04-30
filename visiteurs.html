@@ -176,7 +176,7 @@
                             <div class="card-body">
                                 <div class="media d-flex">
                                     <div class="media-body text-left">
-                                        <h3 class="success">22,908</h3>
+                                        <h3 class="" style="color: #5825d8;">22,908</h3>
                                         <span>Visiteurs par semaine</span>
                                     </div>
                                     <div class="align-self-center">
@@ -258,11 +258,19 @@
 new Chart(ctx, {
   type: 'bar',
   data: {
-	labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+	labels: ['Heure', 'Jour', 'Semaine', 'Mois', 'Année'],
 	datasets: [{
-	  label: '# of Votes',
-	  data: [12, 19, 3, 5, 2, 3],
-	  borderWidth: 1
+	  label: 'Nombre de visiteurs',
+	  
+	  data: [256, 3567, 22908, 98234],
+	  borderWidth: 0,
+    backgroundColor: [
+      '#4BC0C0',
+      '#FFCE56',
+	  '#5825d8',
+      '#FF6384', 
+      '#36A2EB',
+    ],
 	}]
   },
   options: {

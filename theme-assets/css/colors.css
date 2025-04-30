@@ -15,7 +15,7 @@
 .bg-white.bg-glow
 {
     -webkit-box-shadow: 0 1px 20px 1px rgba(255, 255, 255, .6);
-            box-shadow: 0 1px 20px 1px rgba(255, 255, 255, .6);
+            box-shadow: 0 1px 20px 1px rgba(255, 255, 255, .6);  
 }
 
 body.vertical-layout[data-color=bg-white] .navbar-container,
