@@ -6,7 +6,6 @@
 
 /* Styles de base pour le formulaire */
 #form-section {
-    max-width: 600px;
     margin: 0 auto;
     display: none; /* Initialement masqué */
     margin-top: 20px; /* Espace en haut si nécessaire */
@@ -14,6 +13,7 @@
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     background-color: #ffffff;
+    transition: all 1s ease-in-out !important;
 }
  
 h2 {

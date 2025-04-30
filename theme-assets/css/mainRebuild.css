@@ -1,0 +1,50 @@
+body{
+    /* background: #010101 !important;
+    font-family: 'Poppins', sans-serif !important; */
+}
+.setBgForPoopup{
+    z-index: 5555555555555555 !important;
+    background: #03011a90 !important;
+    width: 100% !important;
+    height: 100dvh !important;
+    justify-content: center !important;
+    align-items: center !important;
+    transition: all 1s ease-in-out !important;
+    position: fixed !important;
+    top: -20px !important;
+    /* animation:fadeIn 0.5s ease-in-out forwards !important; */
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+.fade-in {
+    animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+.fade-out {
+    animation: fadeOut 1s ease-in-out forwards;
+}
+.close-button {
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
